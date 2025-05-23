@@ -20,6 +20,5 @@ public class PayPalStrategy implements PagoStrategy {
     @Override
     public void pagar(int monto) {
         System.out.println(monto + " pagado usando PayPal.");
-        // Aquí iría la lógica real de procesamiento PayPal
     }
 }
