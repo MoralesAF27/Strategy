@@ -24,6 +24,5 @@ public class TarjetaCreditoStrategy implements PagoStrategy {
     @Override
     public void pagar(int monto) {
         System.out.println(monto + " pagado con tarjeta de crédito/débito.");
-        // Aquí iría la lógica real de procesamiento de tarjeta
     }
 }
