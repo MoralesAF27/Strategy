@@ -18,6 +18,5 @@ public class CriptoStrategy implements PagoStrategy {
     @Override
     public void pagar(int monto) {
         System.out.println(monto + " pagado usando billetera de Criptomonedas.");
-        // Aquí iría la lógica real de procesamiento de criptomonedas
     }
 }
